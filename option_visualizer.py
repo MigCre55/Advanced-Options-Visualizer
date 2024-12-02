@@ -83,13 +83,13 @@ price, greeks = black_scholes(S, K, T, r, v, div, option_type) if S else (0, {})
 higher_order_greeks = calculate_higher_order_greeks(S, K, T, r, v, div) if S else {}
 
 # Tabs
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["About Me", "Option Details", "Market News", "Volatility & Probability", "Higher Order Greeks"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["About", "Option Details", "Market News", "Volatility & Probability", "Higher Order Greeks"])
 
-# About Me Tab
+# About  Tab
 with tab1:
-    st.header("About Miguel Angel Crespo III")
+    st.header("By: Miguel Angel Crespo III")
     st.write("""
-    Passionate about financial modeling and software development, I developed this tool to enhance the understanding of options pricing and its Greeks.
+    Being passionate about financial modeling and software development, I developed this tool to enhance the understanding of options pricing and its Greeks.Thanks for checking it out!
     Connect with me on [LinkedIn](https://www.linkedin.com/in/miguel-%C3%A1ngel-crespo-iii-26b344223/).
     """)
 
