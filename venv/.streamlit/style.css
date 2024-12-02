@@ -1,0 +1,29 @@
+/* Custom styles for Streamlit elements */
+.streamlit-container {
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Card-like containers for metrics */
+.metric-container {
+    background: #333344;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Customize the headers */
+h1, h2, h3 {
+    color: #ccddff;
+}
+
+/* Customize buttons */
+button {
+    background-color: #622569;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+/* Further customization can be added as needed */
